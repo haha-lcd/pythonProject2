@@ -1,0 +1,19 @@
+name:github action test
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull code
+        run: |
+          git clone https://github.com/haha-lcd/pythonProject2/tree/master
+          cd pythonProject2/tests
+      - name: install pytest
+        run: pip install pytest
+      - name: run pytest
+        run: pytest
+        
