@@ -1,8 +1,4 @@
 import pytest
-# import haha.haha as ha
-
-import haha.haha
-
 
 def test_01():
     print("this is {} testcase".format(__name__))
