@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: pull code
         run: |
-          git clone https://github.com/haha-lcd/pythonProject2/tree/master
+          git clone https://github.com/haha-lcd/pythonProject2.git
           cd pythonProject2/tests
       - name: install pytest
         run: pip install pytest
