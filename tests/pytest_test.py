@@ -8,7 +8,7 @@ def test_01():
     print("this is {} testcase".format(__name__))
 
 def test_hahaha():
-    assert hf.haha_add(1,2) ==3
+    assert hf.haha_add(1,2) == 3
 
 
 if __name__=='__main__':
